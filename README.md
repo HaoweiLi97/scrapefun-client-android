@@ -1,5 +1,7 @@
 # ScrapeFun Client for Android
 
+**简体中文** · [English](./README.en.md)
+
 [产品主页](https://github.com/HaoweiLi97/ScrapeFun) · [稳定版下载](https://github.com/HaoweiLi97/scrapefun-client-android/releases/latest) · [全部发行](https://github.com/HaoweiLi97/scrapefun-client-android/releases) · [在线文档](https://scrapefun.com/#/docs)
 
 > 文档更新：2026-09-28。下列版本和资产为核对当日的稳定版；后续以对应 Release 为准。
