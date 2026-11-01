@@ -4,17 +4,19 @@
 
 [Product overview](https://github.com/HaoweiLi97/ScrapeFun/blob/main/README.en.md) · [Stable downloads](https://github.com/HaoweiLi97/scrapefun-client-android/releases/latest) · [All releases](https://github.com/HaoweiLi97/scrapefun-client-android/releases) · [Online documentation](https://scrapefun.com/?lang=en#/docs)
 
-> Updated: 2026-09-28. Versions and assets below are the stable releases checked on this date. Follow the corresponding Release for later changes.
+> Updated: 2026-11-01. Versions and assets below are the stable releases checked on this date. Follow the corresponding Release for later changes.
 
 Android client for connecting to an existing ScrapeFun Server and browsing and playing media on a mobile device. Server can run in Docker, on macOS, or on Windows; Server manages libraries and users.
+
+**Signing change in 0.5.0:** this release uses a new signing key. An older client signed with the previous key cannot be updated in place. Save server addresses and local preferences before migration; uninstalling may clear local settings. Server data and progress should be backed up on the Server.
 
 ## Downloads and device architecture
 
 | Item | Current stable release |
 | --- | --- |
-| Version | [0.2.8](https://github.com/HaoweiLi97/scrapefun-client-android/releases/tag/v0.2.8) |
-| 64-bit ARM | `scrapefun-android-0.2.8-stable-arm64-v8a.apk` |
-| 32-bit ARM | `scrapefun-android-0.2.8-stable-armeabi-v7a.apk` |
+| Version | [0.5.0](https://github.com/HaoweiLi97/scrapefun-client-android/releases/tag/v0.5.0) |
+| 64-bit ARM | `scrapefun-android-0.5.0-stable-arm64-v8a.apk` |
+| 32-bit ARM | `scrapefun-android-0.5.0-stable-armeabi-v7a.apk` |
 | Checksums and update information | `.sha256`, `SHA256SUMS`, release manifest |
 
 Get the APK matching your device ABI from the [stable download page](https://github.com/HaoweiLi97/scrapefun-client-android/releases/latest). This release does not provide x86 / x86_64 packages. Android version requirements follow the system installer's checks and the release information.

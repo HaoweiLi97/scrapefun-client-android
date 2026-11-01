@@ -4,17 +4,19 @@
 
 [产品主页](https://github.com/HaoweiLi97/ScrapeFun) · [稳定版下载](https://github.com/HaoweiLi97/scrapefun-client-android/releases/latest) · [全部发行](https://github.com/HaoweiLi97/scrapefun-client-android/releases) · [在线文档](https://scrapefun.com/#/docs)
 
-> 文档更新：2026-09-28。下列版本和资产为核对当日的稳定版；后续以对应 Release 为准。
+> 文档更新：2026-11-01。下列版本和资产为核对当日的稳定版；后续以对应 Release 为准。
 
 Android 客户端，连接已有 ScrapeFun Server，在移动设备上浏览和播放媒体。服务器可部署于 Docker、macOS 或 Windows；媒体库与用户由 Server 管理。
+
+**0.5.0 签名变更：**本版使用新的发布密钥，旧签名客户端无法直接覆盖升级。迁移前请保存服务器地址和本地连接设置；卸载可能清除本地配置。服务端数据与进度请在 Server 侧独立备份。
 
 ## 下载与设备架构
 
 | 项目 | 当前稳定版 |
 | --- | --- |
-| 版本 | [0.2.8](https://github.com/HaoweiLi97/scrapefun-client-android/releases/tag/v0.2.8) |
-| 64 位 ARM | `scrapefun-android-0.2.8-stable-arm64-v8a.apk` |
-| 32 位 ARM | `scrapefun-android-0.2.8-stable-armeabi-v7a.apk` |
+| 版本 | [0.5.0](https://github.com/HaoweiLi97/scrapefun-client-android/releases/tag/v0.5.0) |
+| 64 位 ARM | `scrapefun-android-0.5.0-stable-arm64-v8a.apk` |
+| 32 位 ARM | `scrapefun-android-0.5.0-stable-armeabi-v7a.apk` |
 | 校验与更新信息 | `.sha256`、`SHA256SUMS`、发行 manifest |
 
 从[稳定版下载页](https://github.com/HaoweiLi97/scrapefun-client-android/releases/latest)获取匹配设备 ABI 的 APK。当前 Release 未提供 x86 / x86_64 包；Android 版本要求以系统安装器检查和该版说明为准。
