@@ -8,15 +8,17 @@
 
 Android client for connecting to an existing ScrapeFun Server and browsing and playing media on a mobile device. Server can run in Docker, on macOS, or on Windows; Server manages libraries and users.
 
-**Signing change in 0.5.0:** this release uses a new signing key. An older client signed with the previous key cannot be updated in place. Save server addresses and local preferences before migration; uninstalling may clear local settings. Server data and progress should be backed up on the Server.
+**Updating:** 0.5.1 retains the official 0.5.0 signing identity and can update 0.5.0 in place while preserving data. Clients from before 0.5.0 that use the previous signing identity cannot be updated in place; do not uninstall the existing app to bypass a signing mismatch.
+
+0.5.1 improves remote connection stability during long playback sessions and after inactivity, maintaining connections while the app runs and automatically attempting to reconnect when a connection stops responding.
 
 ## Downloads and device architecture
 
 | Item | Current stable release |
 | --- | --- |
-| Version | [0.5.0](https://github.com/HaoweiLi97/scrapefun-client-android/releases/tag/v0.5.0) |
-| 64-bit ARM | `scrapefun-android-0.5.0-stable-arm64-v8a.apk` |
-| 32-bit ARM | `scrapefun-android-0.5.0-stable-armeabi-v7a.apk` |
+| Version | [0.5.1](https://github.com/HaoweiLi97/scrapefun-client-android/releases/tag/v0.5.1) |
+| 64-bit ARM | `scrapefun-android-0.5.1-stable-arm64-v8a.apk` |
+| 32-bit ARM | `scrapefun-android-0.5.1-stable-armeabi-v7a.apk` |
 | Checksums and update information | `.sha256`, `SHA256SUMS`, release manifest |
 
 Get the APK matching your device ABI from the [stable download page](https://github.com/HaoweiLi97/scrapefun-client-android/releases/latest). This release does not provide x86 / x86_64 packages. Android version requirements follow the system installer's checks and the release information.
