@@ -1,10 +1,11 @@
-# ScrapeFun Client for Android
+<div align="center">
+  <img src="./docs/images/client-icon.png" alt="ScrapeFun Client" width="80" />
+  <h1>ScrapeFun Client for Android</h1>
+  <p><a href="./README.md">简体中文</a> · <strong>English</strong></p>
+  <p><a href="https://scrapefun.com/?lang=en">Website</a> · <a href="https://github.com/HaoweiLi97/scrapefun-client-android/releases/latest">Download</a> · <a href="https://github.com/HaoweiLi97/scrapefun-client-android/releases">All releases</a> · <a href="https://scrapefun.com/?lang=en#/docs">Documentation</a></p>
+</div>
 
-[简体中文](./README.md) · **English**
-
-[Product overview](https://github.com/HaoweiLi97/ScrapeFun/blob/main/README.en.md) · [Stable downloads](https://github.com/HaoweiLi97/scrapefun-client-android/releases/latest) · [All releases](https://github.com/HaoweiLi97/scrapefun-client-android/releases) · [Online documentation](https://scrapefun.com/?lang=en#/docs)
-
-> Updated: 2026-11-01. Versions and assets below are the stable releases checked on this date. Follow the corresponding Release for later changes.
+> Updated: 2026-11-03. Versions and assets below are the stable releases checked on this date. Follow the corresponding Release for later changes.
 
 Android client for connecting to an existing ScrapeFun Server and browsing and playing media on a mobile device. Server can run in Docker, on macOS, or on Windows; Server manages libraries and users.
 
@@ -47,9 +48,12 @@ sha256sum --check --ignore-missing SHA256SUMS
 
 On macOS, calculate the digest with `shasum -a 256 FILE.apk` and compare it with that APK's `.sha256` file. File verification does not replace Android installation signature checks.
 
-## Troubleshooting
+<details>
+<summary>Troubleshooting</summary>
 
 For installation issues, include Android version, device ABI, complete APK filename, and system message. For connection or playback problems, also include Server version and minimal reproduction steps.
+
+</details>
 
 ## Support and licensing
 
