@@ -9,19 +9,15 @@
 
 Android client for connecting to an existing ScrapeFun Server and browsing and playing media on a mobile device. Server can run in Docker, on macOS, or on Windows; Server manages libraries and users.
 
-**Updating:** 0.5.2 retains the official 0.5.0 signing identity and can update 0.5.0 in place while preserving data. Clients from before 0.5.0 that use the previous signing identity cannot be updated in place; do not uninstall the existing app to bypass a signing mismatch.
-
-0.5.2 fixes danmaku jitter while videos load, pause or play.
-
-0.5.1 improves remote connection stability during long playback sessions and after inactivity, maintaining connections while the app runs and automatically attempting to reconnect when a connection stops responding.
+**Updating:** 0.5.9 retains the official 0.5.0 signing identity and can update 0.5.0 in place while preserving data. Clients from before 0.5.0 that use the previous signing identity cannot be updated in place; do not uninstall the existing app to bypass a signing mismatch.
 
 ## Downloads and device architecture
 
 | Item | Current stable release |
 | --- | --- |
-| Version | [0.5.2](https://github.com/HaoweiLi97/scrapefun-client-android/releases/tag/v0.5.2) |
-| 64-bit ARM | `scrapefun-android-0.5.2-stable-arm64-v8a.apk` |
-| 32-bit ARM | `scrapefun-android-0.5.2-stable-armeabi-v7a.apk` |
+| Version | [0.5.9](https://github.com/HaoweiLi97/scrapefun-client-android/releases/tag/v0.5.9) |
+| 64-bit ARM | `scrapefun-android-0.5.9-stable-arm64-v8a.apk` |
+| 32-bit ARM | `scrapefun-android-0.5.9-stable-armeabi-v7a.apk` |
 | Checksums and update information | `.sha256`, `SHA256SUMS`, release manifest |
 
 Get the APK matching your device ABI from the [stable download page](https://github.com/HaoweiLi97/scrapefun-client-android/releases/latest). This release does not provide x86 / x86_64 packages. Android version requirements follow the system installer's checks and the release information.
